@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .task{ 
+        padding: 1rem;
+        margin: 0.5rem;
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .done{ 
+        background-color: green;
+        color: white;
+
+    } 
+    .not-done{ 
+        background-color: red;
+        color: white;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1> My Todo App</h1>
+        <p>These are the task you have to done today </p>
+        <input type="text" id="taskinput" placeholder="Enter your task ">
+        <button id="addtskbtn">Add Task</button>
+
+        <div id="todaytask">
+            <h1>Today Task</h1>
+        </div>
+        <div id="tomrrowtsk">
+            <h1>Tomrrow Task</h1>
+        </div>
+
+    </div>
+    <script src="./index.js">
+       
+    </script>
+</body>
+</html>
